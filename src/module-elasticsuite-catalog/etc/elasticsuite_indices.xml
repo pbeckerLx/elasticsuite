@@ -29,13 +29,6 @@
                 <field name="created_at" type="date" />
                 <field name="updated_at" type="date" />
                 <field name="type_id" type="keyword" />
-                <field name="sku" type="text">
-                    <isSearchable>1</isSearchable>
-                    <isUsedForSortBy>1</isUsedForSortBy>
-                    <isUsedInSpellcheck>1</isUsedInSpellcheck>
-                    <isFilterable>1</isFilterable>
-                    <defaultSearchAnalyzer>reference</defaultSearchAnalyzer>
-                </field>
                 <field name="visibility" type="integer" />
                 <field name="children_ids" type="integer" />
                 <field name="configurable_attributes" type="keyword" />
